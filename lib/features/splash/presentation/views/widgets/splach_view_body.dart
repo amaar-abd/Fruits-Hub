@@ -1,9 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:fruits_hub/core/utils/app_images.dart';
+import 'package:fruits_hub/features/on_boarding/presentation/views/on_boarding_view.dart';
 import 'package:svg_flutter/svg.dart';
 
-class SplachViewBody extends StatelessWidget {
+class SplachViewBody extends StatefulWidget {
   const SplachViewBody({super.key});
+
+  @override
+  State<SplachViewBody> createState() => _SplachViewBodyState();
+}
+
+class _SplachViewBodyState extends State<SplachViewBody> {
+  @override
+  void initState() {
+    excuteNaveigation();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -22,4 +34,10 @@ class SplachViewBody extends StatelessWidget {
       ),
     );
   }
+
+void excuteNaveigation() {
+  Future.delayed(Duration(seconds: 3), () {
+    Navigator.pushReplacementNamed(context, OnBoardingView.routeName);
+  });
+}
 }
