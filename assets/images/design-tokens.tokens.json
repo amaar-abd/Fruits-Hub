@@ -1,0 +1,642 @@
+{
+  "font": {
+    "body": {
+      "x-small": {
+        "regular": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 11,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 15.4,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:46b9ad5193c3014f8292091700f0b256ae139eb4,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "semibold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 11,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 600,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 15.4,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:c50be5fa5e4e5e31ea25877167285601bfffbd5c,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 11,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 700,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 15.4,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:1f3f5483d97ecc67b209a1c3d578db1ea88f6a0e,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "small": {
+        "regular": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 13,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 20.8,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:bd44d49ed88e9febd09ce29702a87cc0a0c8d965,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "semibold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 13,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 600,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 22.1,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:c91f58b0208aa2748887ebb580f5972a94dadb95,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 13,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 700,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 15.6,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:2f242fc06db3cd5ea4e8f7a121fdf5dfc92a11ab,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "basa": {
+        "regular": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 22.4,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:41d2b5f484e50366b6602c3537d334f70e7f0b29,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "semibold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 600,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 22.4,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:12d4a0b33917afa63233bd7540473ac3328b8969,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 700,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 19.2,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:9204aac87e3c5e297212fa000fc4504df320b0e5,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "large": {
+        "regular": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 19,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 26.6,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e2f5f29e8e96cfa6ebb3c7431b17c0c4405da634,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "semibold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 19,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 600,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 26.6,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:a416941fbed5b4ba845186ec0d3fd271ace0dace,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 19,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 700,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 22.8,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:76174e324a4f4bdf18a79757cc049c55181b5132,",
+              "exportKey": "font"
+            }
+          }
+        }
+      }
+    },
+    "heading": {
+      "bold": {
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 23,
+          "textDecoration": "none",
+          "fontFamily": "Cairo",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 27.6,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:130a82cefe5c373583586c1728c5d1b89a326891,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "heading5": {
+        "regular": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 23,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 32.2,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:65f7176d63cb503db66059e66881261e9e3c1d87,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "semibold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 23,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 700,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 32.2,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:89402466080211a45ce0fd3576fcb64f3dcc7920,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 23,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 700,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 27.6,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:f2d94480cbea620530703238d86e82164232c475,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "heading4": {
+        "regular": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 28,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 39.2,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:2d6d6e9a75e247c6465a8ff22b0a310b7fd80017,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "semibold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 28,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 600,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 39.2,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:fa29de752603d9d41987778fac5d6128a2f8be8b,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 28,
+            "textDecoration": "none",
+            "fontFamily": "Inter",
+            "fontWeight": 700,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 33.6,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:26cfaab8e3862d03b50e73034136d632168eab6d,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "heading3": {
+        "regular": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 33,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 46.2,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e712a23c7702ca8ed2573f6bc04339299d0b3813,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "semibold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 33,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 600,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 46.2,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e25e4f1c63cf1c468210414d9d223296bd9923de,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 33,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 700,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 39.6,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:eb21d664c6c7178cc7d7d43f1bb0075d1f303a30,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "heading2": {
+        "regular": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 40,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 56,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:09b8ba7c9e6c7233c0d0e9076fb059cfa2c1abb8,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "semibold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 40,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 600,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 56,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:6012e6bd47bcc91896657b4930ccbcfb86a1d88f,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 40,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 700,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 48,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0dc378a6e27d1d4940b71f86fc9ac9449978eb02,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "heading1": {
+        "regular": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 48,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 67.2,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:d9d9d70007e008f4d857106a97e4b3fcc7fb9008,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "semibold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 48,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 600,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 67.2,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:34089553f8a35782a1ab85d783e5a0ae0405cb15,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "bold": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 48,
+            "textDecoration": "none",
+            "fontFamily": "Cairo",
+            "fontWeight": 700,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 57.6,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:d7fe33ad071055f51e27dccc63bbdb2fd5fe0095,",
+              "exportKey": "font"
+            }
+          }
+        }
+      }
+    }
+  }
+}
