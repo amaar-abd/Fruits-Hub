@@ -32,7 +32,7 @@ abstract class AppTextStyles {
     fontFamily: 'Cairo',
   );
 
-  static const bodySmallBold13 = TextStyle(
+  static const bold13 = TextStyle(
     fontSize: 13,
     fontWeight: FontWeight.w700,
     fontFamily: 'Cairo',

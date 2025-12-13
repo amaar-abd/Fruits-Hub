@@ -39,7 +39,7 @@ class _SplachViewBodyState extends State<SplachViewBody> {
   }
 
   void excuteNaveigation() {
-    bool isOnBoardingiVewSeen = Prefs.getBool(kIsOnBoardingViewSeen);
+    bool isOnBoardingiVewSeen = Prefs.getBool(kIsOnBoardingViewSeen) ?? false;
     Future.delayed(Duration(seconds: 3), () {
       if (isOnBoardingiVewSeen) {
         Navigator.pushReplacementNamed(context, LoginView.routeName);
