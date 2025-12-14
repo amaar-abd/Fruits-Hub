@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:fruits_hub/core/widgets/buildappbar.dart';
-
 import 'package:fruits_hub/features/auth/presentation/views/widgets/login_view_body.dart';
 
 class LoginView extends StatelessWidget {
