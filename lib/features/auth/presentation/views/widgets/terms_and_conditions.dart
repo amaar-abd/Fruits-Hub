@@ -2,8 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
 import 'package:fruits_hub/core/utils/app_text_styles.dart';
 
-class TermsAndConditions extends StatelessWidget {
-  const TermsAndConditions({super.key});
+class TermsAndConditions extends StatefulWidget {
+  const TermsAndConditions({super.key, required this.onchange});
+  final ValueChanged<bool> onchange; // الفنكشن التي تستقبل القيمة من الابن
+
+
+  @override
+  State<TermsAndConditions> createState() => _TermsAndConditionsState();
+}
+
+class _TermsAndConditionsState extends State<TermsAndConditions> {
+  bool isChecked = false;
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +20,14 @@ class TermsAndConditions extends StatelessWidget {
       offset: Offset(10, 0),
       child: Row(
         children: [
-          Checkbox(value: false, onChanged: (value) {}),
+          Checkbox(
+            value: isChecked,
+            onChanged: (value) {
+              isChecked = value!;
+              setState(() {});
+              widget.onchange(isChecked); // تنادي الفنكشن المرسلة من الاب
+            },
+          ),
           SizedBox(
             width: MediaQuery.sizeOf(context).width - (14 * 2) - 48,
             child: Padding(

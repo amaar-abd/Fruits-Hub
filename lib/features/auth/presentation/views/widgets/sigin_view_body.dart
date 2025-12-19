@@ -8,8 +8,8 @@ import 'package:fruits_hub/core/widgets/social_login_button.dart';
 import 'package:fruits_hub/features/auth/presentation/views/widgets/dont_have_anaccount_widget.dart';
 import 'package:fruits_hub/features/auth/presentation/views/widgets/ordivider.dart';
 
-class LoginViewBody extends StatelessWidget {
-  const LoginViewBody({super.key});
+class SignInViewBody extends StatelessWidget {
+  const SignInViewBody({super.key});
 
   @override
   Widget build(BuildContext context) {

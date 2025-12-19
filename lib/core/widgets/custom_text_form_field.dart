@@ -5,15 +5,28 @@ class CustomTextFormField extends StatelessWidget {
   const CustomTextFormField({
     super.key,
     required this.hinttext,
-    required this.textInputType,  this.suffixicon,
+    required this.textInputType,
+    this.suffixicon,
+    this.onSaved,
+    this.obscureText = false,
   });
   final String hinttext;
   final TextInputType textInputType;
   final Widget? suffixicon;
-
+  final void Function(String?)? onSaved;
+  final bool obscureText;
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      obscureText: obscureText,
+      onSaved: onSaved,
+      validator: (value) {
+        if (value == null || value.isEmpty) {
+          return 'هذا الحقل مطلوب';
+        } else {
+          return null;
+        }
+      },
       keyboardType: textInputType,
       decoration: InputDecoration(
         suffixIcon: suffixicon,
