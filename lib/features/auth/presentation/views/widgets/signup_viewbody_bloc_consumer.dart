@@ -14,6 +14,7 @@ class SignupViewBodyBlocConsumer extends StatelessWidget {
       listener: (context, state) {
         if (state is SignupCubitSuccess) {
           buildsnakBar(context, 'تم إنشاء الحساب بنجاح');
+          Navigator.pop(context);
         }
         if (state is SignupCubitFailure) {
           buildsnakBar(context, state.errormessage);

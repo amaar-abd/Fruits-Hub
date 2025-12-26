@@ -15,13 +15,13 @@ class _PasswordFieldState extends State<PasswordField> {
   @override
   Widget build(BuildContext context) {
     return CustomTextFormField(
-      obscureText: obscureText ,
-       onSaved:widget.onSaved,
       hinttext: 'كلمة المرور',
       textInputType: TextInputType.visiblePassword,
+
+      obscureText: obscureText ,
+       onSaved:widget.onSaved,
       suffixicon: GestureDetector(
         onTap: () {
-         
             obscureText = !obscureText;
           setState(() {});
         },
