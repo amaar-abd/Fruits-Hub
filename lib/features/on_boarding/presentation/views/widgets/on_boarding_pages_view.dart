@@ -26,7 +26,7 @@ class OnBoardingPagesView extends StatelessWidget {
               Text(
                 'HUB',
                 style: AppTextStyles.bold23.copyWith(
-                  color: AppColors.srcondColor,
+                  color: AppColors.secondColor,
                 ),
               ),
               Text(

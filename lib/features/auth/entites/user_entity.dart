@@ -5,13 +5,13 @@
 // هذا الكلاس يمثل "لبّ العمل" (Domain Layer). هو مجرد كائن يحتوي على البيانات الأساسية التي يحتاجها تطبيقك ليعمل، بغض النظر عن مصدر هذه البيانات.
 
 class UserEntity {
-  final String name;
+  final String? name;
   final String email;
   final String uId;
 
-  UserEntity({required this.name, required this.email, required this.uId});
+  UserEntity({this.name, required this.email, required this.uId});
 
   Map<String, dynamic> toMap() {
     return {'name': name, 'email': email, 'uid': uId};
-        }
+  }
 }

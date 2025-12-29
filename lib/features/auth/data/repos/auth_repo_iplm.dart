@@ -56,7 +56,7 @@ class AuthRepoIplm extends AuthRepo {
     String password,
   ) async {
     try {
-      var user = await firebaseAuthService.singInWithEmailAndPassword(
+      var user = await firebaseAuthService.signInWithEmailAndPassword(
         email: email,
         password: password,
       );
